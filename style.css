@@ -11,6 +11,7 @@ body {
 }
 
 html, body, canvas {
+	font-family: "Arial", "Arial Black", sans-serif !important;
 	touch-action-delay: none;
 	touch-action: none;
 }
@@ -51,7 +52,7 @@ html[ioswebview] .c3htmlwrap > * {
 	border-radius: 1em;
 	padding: 2em;
 	background-color: #f0f0f0;
-	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-family: "Arial", "Arial Black", sans-serif !important;
 	color: black;
 }
 
@@ -108,4 +109,14 @@ html[ioswebview] .c3htmlwrap > * {
     height: 1px;
     overflow: hidden;
     clip: rect(1px, 1px, 1px, 1px);
+}
+
+/*Alterações para ajeitar a fonte*/
+@font-face {
+  /* Aqui colocamos o nome genérico que o Construct costuma usar */
+  font-family: "Arial Narrow"; 
+  /* Mas mandamos ele carregar a Arial Black (que é grossa) do PC do usuário */
+  src: local("Arial Black"), local("Impact"), local("Arial-Black");
+  /* Força a grossura */
+  font-weight: 100; 
 }
