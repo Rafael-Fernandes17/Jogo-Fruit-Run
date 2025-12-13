@@ -1,0 +1,34 @@
+{
+	"name": "Fruits Run",
+	"version": "1.0.0.0",
+	"description": "",
+	"id": "",
+	"unique-id": "yp065t7ffjv",
+	"viewport-width": 854,
+	"viewport-height": 480,
+	"author": "",
+	"email": "",
+	"website": "",
+	"orientations": "landscape",
+	"c2version": "244",
+	"c3version": "r397",
+	"ife": true,
+	"used-plugins": [
+		"Sprite",
+		"Keyboard",
+		"TiledBg",
+		"Text",
+		"Mouse",
+		"Audio",
+		"Button",
+		"Touch"
+	],
+	"used-behaviors": [
+		"Pin",
+		"solid",
+		"Bullet",
+		"scrollto",
+		"Platform",
+		"destroy"
+	]
+}
